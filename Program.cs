@@ -14,8 +14,12 @@ ingles.AdicionarAluno(p1);
 ingles.AdicionarAluno(p2);
 ingles.ListarAlunos();
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
 
 decimal valorMonetario = 1582.40M;
 Console.WriteLine(valorMonetario.ToString("C1"));
+
+double porcentagem = .3421;
+
+Console.WriteLine(porcentagem.ToString("P"));
