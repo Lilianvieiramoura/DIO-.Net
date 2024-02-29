@@ -17,4 +17,5 @@ ingles.AdicionarAluno(p2);
 ingles.ListarAlunos();
 
 
-
+decimal valorMonetario = 82.40M;
+Console.WriteLine($"{valorMonetario:C}");
