@@ -1,0 +1,15 @@
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/bin/Debug/net7.0/PropriedadesMetodosContrut
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/bin/Debug/net7.0/PropriedadesMetodosContrut.deps.json
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/bin/Debug/net7.0/PropriedadesMetodosContrut.runtimeconfig.json
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/bin/Debug/net7.0/PropriedadesMetodosContrut.dll
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/bin/Debug/net7.0/PropriedadesMetodosContrut.pdb
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.csproj.AssemblyReference.cache
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.GeneratedMSBuildEditorConfig.editorconfig
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.AssemblyInfoInputs.cache
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.AssemblyInfo.cs
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.csproj.CoreCompileInputs.cache
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.dll
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/refint/PropriedadesMetodosContrut.dll
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.pdb
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.genruntimeconfig.cache
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/ref/PropriedadesMetodosContrut.dll
