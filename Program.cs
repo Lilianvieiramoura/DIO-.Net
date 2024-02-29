@@ -24,5 +24,12 @@ double porcentagem = .3421;
 
 Console.WriteLine(porcentagem.ToString("P"));
 
-DateTime data = DateTime.Now;
+DateTime data = DateTime.Parse("29/02/2024 11:00");
+
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
 Console.WriteLine(data.ToString("yyyy/MM/dd HH:mm"));
+
+Console.WriteLine(data.ToShortDateString());
+Console.WriteLine(data.ToShortTimeString());
+
+Console.WriteLine(data);
