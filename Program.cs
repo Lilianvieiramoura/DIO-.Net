@@ -14,8 +14,9 @@ ingles.AdicionarAluno(p1);
 ingles.AdicionarAluno(p2);
 ingles.ListarAlunos();
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+// -----------------------------------------------------------
 
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 
 decimal valorMonetario = 1582.40M;
 Console.WriteLine(valorMonetario.ToString("C1"));
@@ -33,3 +34,12 @@ Console.WriteLine(data.ToShortDateString());
 Console.WriteLine(data.ToShortTimeString());
 
 Console.WriteLine(data);
+
+string data2 = "2024/02/29 11:00";
+
+DateTime.TryParseExact(data2,
+                        "yyyy-MM-dd HH:mm",
+                        CultureInfo.InvariantCulture,
+                        DateTimeStyles.None, out DateTime dateT);
+
+Console.WriteLine(dateT);
