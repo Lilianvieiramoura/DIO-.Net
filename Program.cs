@@ -51,8 +51,9 @@ using System.Globalization;
 //   Console.WriteLine($"{data2} não é uma data válida");
 // }
 
+// --------------------------------------------------------------------
 
-string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+string[] linhas = File.ReadAllLines("Arquivos/arquivosLeitura.txt");
 
 foreach (string linha in linhas)
 {
