@@ -23,3 +23,6 @@ Console.WriteLine(valorMonetario.ToString("C1"));
 double porcentagem = .3421;
 
 Console.WriteLine(porcentagem.ToString("P"));
+
+DateTime data = DateTime.Now;
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
