@@ -75,6 +75,10 @@ catch (Exception ex)
 {
   Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
 }
+finally
+{
+  Console.WriteLine("Chegou até aqui");
+}
 
 
 
