@@ -1,4 +1,5 @@
 ﻿using ExplorandoLinguagem.Models;
+using System.Data;
 using System.Globalization;
 
 // Pessoa p1 = new("Lílian", "Vieira");
@@ -104,22 +105,35 @@ using System.Globalization;
 // }
 
 
-Stack<int> pilha = new();
-pilha.Push(4);
-pilha.Push(6);
-pilha.Push(8);
-pilha.Push(10);
+// Stack<int> pilha = new();
+// pilha.Push(4);
+// pilha.Push(6);
+// pilha.Push(8);
+// pilha.Push(10);
 
-foreach (int item in pilha)
+// foreach (int item in pilha)
+// {
+//   Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+
+// pilha.Push(20);
+
+// foreach (int item in pilha)
+// {
+//   Console.WriteLine(item);
+// }
+
+
+Dictionary<string, string> estados = new()
 {
-  Console.WriteLine(item);
-}
+    { "PE", "Pernambuco" },
+    { "AL", "Alagoas" },
+    { "SP", "São Paulo" },
+};
 
-Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
-
-pilha.Push(20);
-
-foreach (int item in pilha)
+foreach (KeyValuePair<string, string> item in estados)  // ou var item in estados
 {
-  Console.WriteLine(item);
+  Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
