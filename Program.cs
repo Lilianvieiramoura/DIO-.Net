@@ -185,7 +185,25 @@ using System.Globalization;
 // }
 
 
-Pessoa p1 = new("Lílian", "vieira");
+// Pessoa p1 = new("Lílian", "vieira");
 
-(string nome, string sobrenome) = p1;
-Console.WriteLine($"{nome} {sobrenome}");
+// (string nome, string sobrenome) = p1;
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+int numero = 20;
+bool ehPar = false;
+
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
+
+
+// if (numero % 2 == 0)
+// {
+//   Console.WriteLine($"O número {numero} é par");
+// }
+// else
+// {
+//   Console.WriteLine($"O número {numero} é ímpar");
+// }
