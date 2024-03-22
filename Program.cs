@@ -168,18 +168,24 @@ using System.Globalization;
 // var outraTupla2 = Tuple.Create(1, "Lílian", "Veira", 1.64M);
 
 
-LeituraArquivo arquivo = new();
-var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+// LeituraArquivo arquivo = new();
+// var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
 
-if (sucesso)
-{
-  // Console.WriteLine("Quantidade linhas do arquivo: " + quantidadeLinhas);
-  foreach (string linha in linhasArquivo)
-  {
-    Console.WriteLine(linha);
-  }
-}
-else
-{
-  Console.WriteLine("Não foi possível ler o arquivo");
-}
+// if (sucesso)
+// {
+//   // Console.WriteLine("Quantidade linhas do arquivo: " + quantidadeLinhas);
+//   foreach (string linha in linhasArquivo)
+//   {
+//     Console.WriteLine(linha);
+//   }
+// }
+// else
+// {
+//   Console.WriteLine("Não foi possível ler o arquivo");
+// }
+
+
+Pessoa p1 = new("Lílian", "vieira");
+
+(string nome, string sobrenome) = p1;
+Console.WriteLine($"{nome} {sobrenome}");
