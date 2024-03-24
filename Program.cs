@@ -209,10 +209,15 @@ using Newtonsoft.Json;
 //   Console.WriteLine($"O número {numero} é ímpar");
 // }
 
+List<Venda> listaVendas = new();
 
 Venda v1 = new(1, "Material de escritório", 25.00M);
+Venda v2 = new(2, "Material de construção", 35.00M);
 
-string sereializado = JsonConvert.SerializeObject(v1, Formatting.Indented);
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+string sereializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
 
 File.WriteAllText("Arquivos/vendas.json", sereializado);
 
