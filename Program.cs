@@ -209,10 +209,12 @@ using Newtonsoft.Json;
 //   Console.WriteLine($"O número {numero} é ímpar");
 // }
 
+DateTime dataAtual = DateTime.Now;
+
 List<Venda> listaVendas = new();
 
-Venda v1 = new(1, "Material de escritório", 25.00M);
-Venda v2 = new(2, "Material de construção", 35.00M);
+Venda v1 = new(1, "Material de escritório", 25.00M, dataAtual);
+Venda v2 = new(2, "Material de construção", 35.00M, dataAtual);
 
 listaVendas.Add(v1);
 listaVendas.Add(v2);
@@ -222,3 +224,5 @@ string sereializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indent
 File.WriteAllText("Arquivos/vendas.json", sereializado);
 
 Console.WriteLine(sereializado);
+
+// ISO 8601
