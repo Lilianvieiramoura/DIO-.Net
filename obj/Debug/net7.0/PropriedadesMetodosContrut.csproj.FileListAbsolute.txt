@@ -13,3 +13,5 @@
 /home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.pdb
 /home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.genruntimeconfig.cache
 /home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/ref/PropriedadesMetodosContrut.dll
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/lilian/dio-.net/explorandoALinguagemCsharp/PropriedadesMetodosContrut/obj/Debug/net7.0/PropriedadesMetodosContrut.csproj.CopyComplete

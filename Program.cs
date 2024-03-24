@@ -1,6 +1,7 @@
 ﻿using ExplorandoLinguagem.Models;
 using System.Data;
 using System.Globalization;
+using Newtonsoft.Json;
 
 // Pessoa p1 = new("Lílian", "Vieira");
 // Pessoa p2 = new("vfbf", "queiroz");
@@ -191,12 +192,12 @@ using System.Globalization;
 // Console.WriteLine($"{nome} {sobrenome}");
 
 
-int numero = 20;
-bool ehPar = false;
+// int numero = 20;
+// bool ehPar = false;
 
-ehPar = numero % 2 == 0;
+// ehPar = numero % 2 == 0;
 
-Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
+// Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
 
 
 // if (numero % 2 == 0)
@@ -207,3 +208,9 @@ Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
 // {
 //   Console.WriteLine($"O número {numero} é ímpar");
 // }
+
+
+Venda v1 = new(1, "Material de escritório", 25.00M);
+
+string sereializado = JsonConvert.SerializeObject(v1, Formatting.Indented);
+Console.WriteLine(sereializado);
