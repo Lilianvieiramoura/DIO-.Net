@@ -209,20 +209,31 @@ using Newtonsoft.Json;
 //   Console.WriteLine($"O número {numero} é ímpar");
 // }
 
-DateTime dataAtual = DateTime.Now;
+// DateTime dataAtual = DateTime.Now;
 
-List<Venda> listaVendas = new();
+// List<Venda> listaVendas = new();
 
-Venda v1 = new(1, "Material de escritório", 25.00M, dataAtual);
-Venda v2 = new(2, "Material de construção", 35.00M, dataAtual);
+// Venda v1 = new(1, "Material de escritório", 25.00M, dataAtual);
+// Venda v2 = new(2, "Material de construção", 35.00M, dataAtual);
 
-listaVendas.Add(v1);
-listaVendas.Add(v2);
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
 
-string sereializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+// string sereializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
 
-File.WriteAllText("Arquivos/vendas.json", sereializado);
+// File.WriteAllText("Arquivos/vendas.json", sereializado);
 
-Console.WriteLine(sereializado);
+// Console.WriteLine(sereializado);
 
 // ISO 8601
+
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+  Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto} " +
+                    $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyy HH:mm")}");
+}
